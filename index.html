@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Font generator</h2>
+    <div>
+
+        <input type="range" id="myRange" onchange="change_font_size()">
+        <select id="mySelect" onchange="select_font_type()">
+            <option value="'Bodoni Moda', serif">'Bodoni Moda', serif
+            <option value="'Open Sans', sans-serif">'Open Sans', sans-serif
+            <option value="'Roboto', sans-serif">'Roboto', sans-serif
+            <option value="'Yusei Magic', sans-serif">'Yusei Magic', sans-serif
+        </select>
+        <!--'Bodoni Moda', serif | 'Open Sans', sans-serif | 'Roboto', sans-serif | 'Yusei Magic', sans-serif;-->
+        <input type="text" placeholder="Enter your text please!" id="myInput">
+
+    </div>
+    <p id="pFontType"></p>
+    <h2 id="h2Output">Please enter your text in the input field!</h2>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
